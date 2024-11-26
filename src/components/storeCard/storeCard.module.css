@@ -1,0 +1,101 @@
+.storeCardContainer {
+    padding: 0px 15px;
+    margin-top: 15px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-auto-rows: 430px;
+    gap: 10px;
+}
+
+.shopContainerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 6px 20px;
+    transition: transform 0.3s ease;
+}
+
+.shopContainerCard:hover {
+  transform: scale(1.03);
+}
+
+.imgWrapper {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 15px 0 20px;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .linkPlace {
+    padding-left: 180px;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .titleText {
+    /* text-align: center; */
+    font-size: 16px;
+  }
+
+  .linkPosition {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    width: 100%;
+    height: 53%;
+    padding-top: 50px;
+    margin-top: 0px;
+    font-weight: bolder;
+  }   
+
+  .link {
+    font-size: 18px;
+  text-decoration: none;
+  color: rgb(25, 68, 87);
+}
+
+.storePage {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 20px 20px;
+  background: linear-gradient( to left, rgb(178, 212, 178), rgb(178, 187, 219));
+
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.storePageImage {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 10px 10px;
+  margin-left: 10px;
+  background: white;
+
+}
+
+.storePage p, h2 {
+  padding-bottom: 12px;
+}
+
+  /* .widthStorePage {
+    width: 500px;
+    text-align: left;
+  } */
+

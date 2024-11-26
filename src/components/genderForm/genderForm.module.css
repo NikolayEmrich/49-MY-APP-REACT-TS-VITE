@@ -1,0 +1,33 @@
+.genderForm {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.genderForm>input {
+  margin-right: 5px;
+}
+
+.genderForm>button {
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(141, 68, 141);
+}
+
+.genderForm>button:hover {
+  background-color: rgb(193, 141, 193);
+}
+
+.error {
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(187, 31, 31);
+  font-size: 12px;
+  position: absolute;
+  bottom: -33px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+}

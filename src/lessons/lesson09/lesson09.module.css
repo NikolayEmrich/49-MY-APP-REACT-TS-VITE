@@ -1,0 +1,13 @@
+.desc {
+    font-style: italic;
+    color: rgb(133, 96, 26);
+}
+
+.heading {
+    text-decoration: underline;
+}
+
+/* css-modules пишутся camel cas'ом */
+.boldText {
+    font-weight: bolder;
+}

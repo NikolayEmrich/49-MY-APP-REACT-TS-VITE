@@ -1,0 +1,21 @@
+.fox-wrapper {
+    height: 200px;
+    width: 250px;
+    margin-top: 10px;
+    border: 2px dashed darkorange;
+    
+    /* Закругление краев */
+    border-radius: 50%;
+    /* Спрятали не попадающие в контейнер углы картинки */
+    overflow: hidden;
+}
+
+.fox-wrapper > img {
+    width: 100%;
+    height: 100%;
+
+    /* Сохраняет пропорции */
+    /* object-fit: contain; */
+
+    object-fit: cover;
+}
